@@ -11,43 +11,68 @@ This app supports all the popular video formats including MKV, MP4 , 3GP, M4V, M
 
 It can show videos in folders as well as without folders in a separate section. It provides the best equalizer for managing audio track frequencies.
 
-StreamIT app features:
+## ✨ StreamIT app features
 
-● Bass Boost Equailzer
+- Bass Boost Equailzer
+- Zoom in / Zoom out
+- Plays all the popular video formats smoothly
+- Full HD video player with 1080p resolution
+- Swipe for volume and brightness change
+- Support Subtitles
+- Manage Playback Speed of Video
+- Picture in Picture mode for playing video in small window
+- Double Tap to Play Pause
+- Night Mode
+- Section for showing all videos of device
+- Properties of video (video name, path, size, length, duration, resolution)
+- Share Videos with friends
+- Search Video with Name
+- Lock and unLock video
+- Scaling (Fullscreen, Zoom, Fit)
+- Play next previous video
+- Sort Video files by name, date, length and size in Ascending or Descending order
 
-● Zoom in / Zoom out
+## 🖼️ Screenshot
 
-● Plays all the popular video formats smoothly
+<p align="center">
+  <img src="screenshot/img1.jpg" alt="Screenshot" width="200" height="350" style="margin-right: 20px;">
+  <img src="screenshot/img2.jpg" alt="Screenshot" width="200" height="350" style="margin-right: 20px;">
+  <img src="screenshot/img3.jpg" alt="Screenshot" width="200" height="350" style="margin-right: 20px;">
+  <img src="screenshot/img4.jpg" alt="Screenshot" width="200" height="350" style="margin-right: 20px;">
+</p>
 
-● Full HD video player with 1080p resolution
+<p align="center">
+  <img src="screenshot/img5.jpg" alt="Screenshot" width="200" height="350" style="margin-right: 20px;">
+  <img src="screenshot/img6.jpg" alt="Screenshot" width="200" height="350" style="margin-right: 20px;">
+  <img src="screenshot/img8.jpg" alt="Screenshot" width="200" height="350" style="margin-right: 20px;">
+  <img src="screenshot/img9.jpg" alt="Screenshot" width="200" height="350" style="margin-right: 20px;">
+</p>
 
-● Swipe for volume and brightness change
+<p align="center">
+  <img src="screenshot/img10.jpg" alt="Screenshot" width="200" height="350" style="margin-right: 20px;">
+  <img src="screenshot/img11.jpg" alt="Screenshot" width="200" height="350" style="margin-right: 20px;">
+  <img src="screenshot/img12.jpg" alt="Screenshot" width="200" height="350" style="margin-right: 20px;">
+  <img src="screenshot/img13.jpg" alt="Screenshot" width="200" height="350" style="margin-right: 20px;">
+</p>
 
-● Support Subtitles
+<p align="center">
+  <img src="screenshot/img14.jpg" alt="Screenshot" width="200" height="350" style="margin-right: 20px;">
+  <img src="screenshot/img15.jpg" alt="Screenshot" width="200" height="350" style="margin-right: 20px;">
+  <img src="screenshot/img7.jpg" alt="Screenshot" width="420" height="200" style="margin-right: 20px;">
+</p>
 
-● Manage Playback Speed of Video
 
-● Picture in Picture mode for playing video in small window
+## 🛠️ Installation Step
 
-● Double Tap to Play Pause
+- Download or clone the repo
+- Build gradle and run the project
 
-● Night Mode
+## 🖥️ Technologies Used
 
-● Section for showing all videos of device
+- Android Studio
+- Java
+- Exoplayer
+- Lottie Animation
+- Simple Media Player
 
-● Properties of video (video name, path, size, length, duration, resolution)
-
-● Share Videos with friends
-
-● Search Video with Name
-
-● Lock and unLock video
-
-● Scaling (Fullscreen, Zoom, Fit)
-
-● Play next previous video
-
-● Sort Video files by name, date, length and size in Ascending or Descending order
-
-This is the app to meet all the requirements of the media player and along with attractive UI will bring you the best experience.
-
+## 😃 If you liked the app, Please give it a ⭐ and fork the repository. 🙌  
