@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/video"
+        android:title="Video"
+        android:icon="@drawable/baseline_movie_24"/>
+    <item android:id="@+id/audio"
+        android:title="Audio"
+        android:icon="@drawable/baseline_audiotrack_24"/>
+    <item android:id="@+id/stream"
+        android:title="Stream"
+        android:icon="@drawable/baseline_live_tv_24"/>
+
+</menu>

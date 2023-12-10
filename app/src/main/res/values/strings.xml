@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">StreamIT</string>
+    <string name="text1">Thank you for installing our Media Player App</string>
+    <string name="text2">To enable media playback within this app, granting permission to access all
+        media files on this device is necessary. Once access is granted, we will be set to proceed.</string>
+    <string name="aboutApp">Welcome to StreamIT – the ultimate media player app designed to elevate your entertainment experience! Stream, play, and enjoy your favorite music and videos with ease. Our user-friendly interface offers seamless navigation, allowing you to effortlessly organize and access your media library. With customizable playlists, smooth playback controls, and support for various file formats, StreamIT ensures an immersive and personalized entertainment journey. Whether you are on the go or relaxing at home, dive into a world of audio-visual delight with StreamIT.</string>
+</resources>

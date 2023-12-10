@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:layout_width="match_parent">
+<ScrollView
+
+    android:layout_width="wrap_content"
+    tools:context=".activities.AboutUs"
+    android:layout_height="wrap_content">
+<LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    >
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:padding="10dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+
+            app:srcCompat="@drawable/app_icon" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_marginTop="13dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="About the app" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/describe"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:layout_marginRight="10dp"
+        android:padding="10dp"
+        android:layout_height="wrap_content"
+        android:text="@string/aboutApp" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="10dp"
+        android:padding="10dp"
+        android:orientation="horizontal">
+
+        <ImageView
+
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+
+            app:srcCompat="@drawable/programmer" />
+
+        <TextView
+
+            android:layout_marginTop="13dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Developers" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="70dp"
+        android:orientation="horizontal">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            app:cardCornerRadius="50dp"
+            app:civ_border_color="#FF000000"
+            app:civ_border_width="2dp">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:scaleType="centerCrop"
+                android:layout_height="wrap_content"
+                android:src="@drawable/pic0"/>
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Ankit Kumar"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:textStyle="normal" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <ImageView
+                    android:id="@+id/link3"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginVertical="11dp"
+                    app:srcCompat="@drawable/logo_linkedin" />
+
+                <ImageView
+                    android:id="@+id/link4"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginVertical="5dp"
+                    app:srcCompat="@drawable/logo_github" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            app:cardCornerRadius="50dp"
+            app:civ_border_color="#FF000000"
+            app:civ_border_width="2dp">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:scaleType="centerCrop"
+                android:layout_height="wrap_content"
+                android:src="@drawable/pic11"/>
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="@color/black"
+                android:text="Himanshu Raj"
+                android:textSize="18dp"
+                android:textStyle="normal" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <ImageView
+                    android:id="@+id/link1"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginVertical="11dp"
+                    app:srcCompat="@drawable/logo_linkedin" />
+
+                <ImageView
+                    android:id="@+id/link2"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginVertical="5dp"
+                    app:srcCompat="@drawable/logo_github" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</LinearLayout>
+</ScrollView>
+</LinearLayout>
